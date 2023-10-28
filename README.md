@@ -509,6 +509,29 @@ These can be viewed in the following links:
 [Order email confirmation not sent](https://github.com/mjjstockman/ecomm/issues/57)
 
 
+NEW NEW NEW NEW NEW NEW!!!!!!!!!!!!!!!!!!!
+Connecting to dB, 
+followed error code trail.
+
+uriUndefined img
+
+so console.logged to double check for myself
+```
+console.log(process.env.MONGODB_URI);
+```
+
+log showed 'undefined'
+checked .env was in root dir
+checked no typos of MONGODB_URI when declared in .env and when called in index.js
+checked had correctly required dotenv
+checked other depencies
+restarted server
+cleared env variables cache
+
+/ NEW NEW NEW NEW NEW NEW!!!!!!!!!!!!!!!!!!!
+
+
+
 ## Remaining Bugs
 
 [Selenium](https://www.selenium.dev/) was used to automate Google Chrome web browser for testing
